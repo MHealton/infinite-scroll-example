@@ -28,6 +28,7 @@ function imageLoaded() {
 }
 
 // Helper - Sets Attributes on DOM Elements
+// TODO: add default value if attribute is null
 function setAttributes(element, attributes) {
   for (const key in attributes){
     element.setAttribute(key, attributes[key]);
